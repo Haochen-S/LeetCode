@@ -10,5 +10,6 @@ while (i < len(str)):
         newStr += str[i]
     i += 1
 print()
+print()
 print(newStr + ".py")
 print()
