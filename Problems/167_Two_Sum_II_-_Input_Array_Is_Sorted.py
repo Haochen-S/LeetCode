@@ -12,7 +12,7 @@ class Solution(object):
         minIndex = 0
         maxIndex = len(numbers) - 1
 
-        while True:
+        while minIndex < maxIndex:
             
             if (numbers[minIndex] + numbers[maxIndex] == target):
                 return [minIndex + 1, maxIndex + 1]
@@ -21,7 +21,7 @@ class Solution(object):
             else:
                 minIndex += 1
 
-
+        return []
 
 
  
