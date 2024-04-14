@@ -1,5 +1,5 @@
 # 387. First Unique Character in a String
-
+# Done
 class Solution(object):
     def firstUniqChar(self, s):
         """
@@ -26,9 +26,4 @@ class Solution(object):
             return -1
         else:
             return min(first_appearance.values())
-
-
-print(Solution.firstUniqChar(Solution, "loveleetcode"))
-
-
-
+# Done

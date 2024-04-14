@@ -1,6 +1,6 @@
 # 5. Longest Palindromic Substring
 import math
-
+# Done
 class Solution(object):
     def longestPalindrome(self, s):
         """
@@ -25,7 +25,6 @@ class Solution(object):
             checking_length -= 1
             start = 0
         return ans
-
 
     def isPalindromic(self, s):
         length = len(s)
@@ -52,9 +51,4 @@ class Solution(object):
                 front -= 1
                 back += 1
         return True
-
-
-
-
-print(Solution.longestPalindrome(Solution, "xxadbcbdxxx"))
-
+# Done
