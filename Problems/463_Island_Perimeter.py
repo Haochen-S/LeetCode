@@ -7,7 +7,8 @@ class Solution(object):
         :type grid: List[List[int]]
         :rtype: int
         """
-        if ()
+        if ():
+            return 0
         topLayer = []
         targetLayer = []
         botLayer = []
