@@ -9,7 +9,6 @@ public class Maximum_Product_Subarray_152 {
     }
 }
 
-
 class SolutionOptimized {
     public int maxProduct(int[] nums) {
         // Check if the input array is empty, return 0 if it is
