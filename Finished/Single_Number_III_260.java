@@ -2,6 +2,18 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 
+public class Single_Number_III_260 {
+    
+    public static void main(String[] args) {
+        int[] arr = {3,4,5,3,4,6};
+    
+        Solution s = new Solution();
+
+        System.out.println(Arrays.toString(s.singleNumber(arr)));
+    }
+}
+
+
 class Solution {
     public int[] singleNumber(int[] nums) {
 
@@ -35,13 +47,3 @@ class Solution {
     }
 }
 
-public class Single_Number_III_260 {
-    
-    public static void main(String[] args) {
-        int[] arr = {3,4,5,3,4,6};
-    
-        Solution s = new Solution();
-
-        System.out.println(Arrays.toString(s.singleNumber(arr)));
-    }
-}

@@ -1,5 +1,16 @@
 // 152. Maximum Product Subarray
-class Solution {
+
+public class Maximum_Product_Subarray_152 {
+    public static void main(String[] args) {
+        int[] arr = {-3,0,1,-2};
+    
+        SolutionA s = new SolutionA();
+        System.out.println(s.maxProduct(arr));
+    }
+}
+
+
+class SolutionA {
     public int maxProduct(int[] nums) {
         // Check if the input array is empty, return 0 if it is
         if (nums.length == 0) {
@@ -64,11 +75,3 @@ class SlowSolution {
     }
 }
 
-public class Maximum_Product_Subarray_152 {
-    public static void main(String[] args) {
-        int[] arr = {-3,0,1,-2};
-    
-        Solution s = new Solution();
-        System.out.println(s.maxProduct(arr));
-    }
-}
