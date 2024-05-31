@@ -1,8 +1,5 @@
 #! /bin/bash
 
-echo -n "Type 1 for Unfinished folder, Type 2 for Finished folder: " 
-read folderNumber
-
 echo -n "Enter fileName: " 
 read fileName
 
