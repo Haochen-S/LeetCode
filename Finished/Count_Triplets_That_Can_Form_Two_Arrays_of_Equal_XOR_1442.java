@@ -27,7 +27,7 @@ class Solution {
 
 public class Count_Triplets_That_Can_Form_Two_Arrays_of_Equal_XOR_1442 {
   public static void main(String[] args) {
-    int[] arr = {};
+    int[] arr = {1,2,3};
 
     Solution s = new Solution();
     

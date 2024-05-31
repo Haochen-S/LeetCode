@@ -1,9 +1,10 @@
 // 260. Single Number III
-import java.util.Arrays;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 class Solution {
     public int[] singleNumber(int[] nums) {
+
         if (nums.length == 2) {
             return nums;
         }
@@ -40,7 +41,7 @@ public class Single_Number_III_260 {
         int[] arr = {3,4,5,3,4,6};
     
         Solution s = new Solution();
-        System.out.println(Arrays.toString(arr));
+
         System.out.println(Arrays.toString(s.singleNumber(arr)));
     }
 }
