@@ -9,8 +9,9 @@ read fileName
 if [ $folderNumber -eq 1 ]
 then
     # ls ./Unfinished\ Problems/
+    javac ./Unfinished\ Problems/$fileName.java
     java ./Unfinished\ Problems/$fileName.java
-    # rm ./Unfinished\ Problems/*.class
+    rm ./Unfinished\ Problems/*.class
 elif [ $folderNumber -eq 2 ]
 then
     # ls ./Finished/
