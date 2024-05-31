@@ -1,6 +1,7 @@
 #! /bin/bash
 
-echo -n "Type 1 for Unfinished folder, Type 2 for Finished folder: " 
+echo -n -e "1 for Unfinished\n2 for Finished\n3 for Optimized: "
+
 read folderNumber
 
 echo -n "Enter fileName: " 
@@ -18,6 +19,12 @@ then
     javac ./Finished/$fileName.java
     java ./Finished/$fileName.java
     rm ./Finished/*.class
+elif [ $folderNumber -eq 3 ]
+then
+    # ls ./Optimized/
+    javac ./Optimized/$fileName.java
+    java ./Optimized/$fileName.java
+    rm ./Optimized/*.class
 else
     echo "incorrect input, input 1 or 2"
 fi
