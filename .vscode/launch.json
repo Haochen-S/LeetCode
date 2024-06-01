@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "javaTitleEditor",
+            "request": "launch",
+            "mainClass": "javaTitleEditor",
+            "projectName": "LeetCode_a1315391"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+  }
+  
