@@ -6,6 +6,13 @@
             "name": "javaTitleEditor",
             "request": "launch",
             "mainClass": "javaTitleEditor",
+            "projectName": "LeetCode_873f4c0a"
+        },
+        {
+            "type": "java",
+            "name": "javaTitleEditor",
+            "request": "launch",
+            "mainClass": "javaTitleEditor",
             "projectName": "LeetCode_a1315391"
         },
         {
